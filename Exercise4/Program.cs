@@ -86,6 +86,9 @@ namespace Exercise4
                         }
                         s.pop();
                         break;
+                    case '3':
+                        s.display();
+                        break;
                 }
             }
         }
