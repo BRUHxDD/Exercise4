@@ -8,11 +8,11 @@ namespace Exercise4
 {
     class node
     {
-        public int info;
+        public int attar;
         public node next;
         public node(int i, node n)
         {
-            info = i;
+            attar = i;
             next = n;
         }
     }
@@ -41,7 +41,7 @@ namespace Exercise4
         }
         public void pop()
         {
-            Console.WriteLine("\n The poped element is: " + top.info);
+            Console.WriteLine("\n The poped element is: " + top.attar);
             top = top.next;
         }
         public void display()
@@ -53,7 +53,7 @@ namespace Exercise4
             {
                 for (tmp = top; tmp != null; tmp = tmp.next)
                 {
-                    Console.WriteLine(tmp.info);
+                    Console.WriteLine(tmp.attar);
                 }
             }
         }
